@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="13" failures="0" time="1.187">
+  <testsuite name="Browser Storage Parser" errors="0" failures="0" skipped="0" timestamp="2019-08-28T13:09:03" time="0.498" tests="13">
+    <testcase classname="Browser Storage Parser getFromLocalStorage gets object from local storage when it exists and is a string" name="Browser Storage Parser getFromLocalStorage gets object from local storage when it exists and is a string" time="0.004">
+    </testcase>
+    <testcase classname="Browser Storage Parser getFromLocalStorage gets object from local storage when it exists and is an object" name="Browser Storage Parser getFromLocalStorage gets object from local storage when it exists and is an object" time="0">
+    </testcase>
+    <testcase classname="Browser Storage Parser getFromLocalStorage gets object from session storage when local storage errors and sessionFallback is true" name="Browser Storage Parser getFromLocalStorage gets object from session storage when local storage errors and sessionFallback is true" time="0.001">
+    </testcase>
+    <testcase classname="Browser Storage Parser getFromLocalStorage returns undefined when local storage errors and sessionFallback is false" name="Browser Storage Parser getFromLocalStorage returns undefined when local storage errors and sessionFallback is false" time="0.001">
+    </testcase>
+    <testcase classname="Browser Storage Parser getFromSessionStorage gets object from session storage when it exists and is a string" name="Browser Storage Parser getFromSessionStorage gets object from session storage when it exists and is a string" time="0.001">
+    </testcase>
+    <testcase classname="Browser Storage Parser getFromSessionStorage gets object from session storage when it exists and is an object" name="Browser Storage Parser getFromSessionStorage gets object from session storage when it exists and is an object" time="0">
+    </testcase>
+    <testcase classname="Browser Storage Parser saveToLocalStorage saves object to local storage when is string" name="Browser Storage Parser saveToLocalStorage saves object to local storage when is string" time="0">
+    </testcase>
+    <testcase classname="Browser Storage Parser saveToLocalStorage saves object to local storage when is object" name="Browser Storage Parser saveToLocalStorage saves object to local storage when is object" time="0.001">
+    </testcase>
+    <testcase classname="Browser Storage Parser saveToLocalStorage saves object to session storage when local storage errors and sessionFallback is true" name="Browser Storage Parser saveToLocalStorage saves object to session storage when local storage errors and sessionFallback is true" time="0">
+    </testcase>
+    <testcase classname="Browser Storage Parser saveToLocalStorage does not save object to session storage when local storage errors and sessionFallback is false" name="Browser Storage Parser saveToLocalStorage does not save object to session storage when local storage errors and sessionFallback is false" time="0.001">
+    </testcase>
+    <testcase classname="Browser Storage Parser saveToSessionStorage saves object to session storage when is string" name="Browser Storage Parser saveToSessionStorage saves object to session storage when is string" time="0">
+    </testcase>
+    <testcase classname="Browser Storage Parser saveToSessionStorage saves object to session storage when is object" name="Browser Storage Parser saveToSessionStorage saves object to session storage when is object" time="0">
+    </testcase>
+    <testcase classname="Browser Storage Parser parseStorageObject returns undefined if parameter is null or undefined" name="Browser Storage Parser parseStorageObject returns undefined if parameter is null or undefined" time="0">
+    </testcase>
+  </testsuite>
+</testsuites>

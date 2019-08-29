@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - node
+deploy:
+  provider: npm
+  email: tylerdrake44@gmail.com
+  api_key:
+    secure: OIcl1VNEH1nzS7j5TI0OQR5VrcP10nK8elx5JPgDI3uTJuliZ96FsO7i5EaoAwHr0j8aGhrxmNkZbxHVOBs0b9C/jDj4+iWG/5UCUW4JbKF8mw9KqK5DHk5PNeAV0mywoMuQKD2U29kE7IO62DP4ez3pKjPy4KoIvCitU02yopYkP0PUTMXOhY0kzJFMPPHwZEkLRbiLn2guf3k+rdYLErEmZ7f9UztanzR485zgp2cjDjgq/VHqeyBpQId+Nkxp0VG7yCE5bUvtn2xTYPqf5u7w6panfv6MFVYi0zUtHeJ0C3toMX1YEsdAVCemYUzBS9aJ10LHutHy1ouBKboYddFN50NdcgxSvd6dEdLUA4/RYJOEjkfuHRE9+SjMnlb9p6I4Rnl6FRr3V/j4XLAIcl30hJVINpMSTEwwkitIb+vQHgzeS3gT7vl9ucK+7WXnZrBVsuAJ6BgKAPgNKADH/K6r4Ze1Mfrb2pjm7L3+4tOlOHOYNxgVdp2GOtH0QewV3htzdYFswziU2kIQsf1PPYvZdxo/+fulU5CPxWv+lkKifHk6bVN9xwfEg0pSUvDtG6tFD0MN/J5iB9xwBsobUJ7D7So8IpMOsW3iykNF85VESesFoKVFASwGth6LPsFJw1QzoZxJQ2g3Fd3Rot2MjWxyyE5DMdaBEwAorwUdxeo=
+  on:
+    tags: true
+    repo: TDrake44/browser-storage-parser

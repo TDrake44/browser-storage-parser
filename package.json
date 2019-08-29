@@ -1,0 +1,35 @@
+{
+  "name": "browser-storage-parser",
+  "version": "0.0.1",
+  "description": "Allows developers to reference browser local/session storage without having to stringify or parse their object types.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --collectCoverageFrom='[\"src/**/*.{js,jsx}\"]' --coverage --env=jsdom --coverageReporters=text-lcov | coveralls",
+    "test_watch": "jest --watch --env=jsdom",
+    "format": "prettier --trailing-comma es5 --single-quote --write 'src/**/*.{js,jsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TDrake44/browser-storage-parser.git"
+  },
+  "keywords": [
+    "storage",
+    "localstorage",
+    "sessionstorage"
+  ],
+  "author": "Tyler Drake",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TDrake44/browser-storage-parser/issues"
+  },
+  "homepage": "https://github.com/TDrake44/browser-storage-parser#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.6",
+    "jest": "^24.8.0",
+    "jest-junit": "^6.4.0",
+    "prettier": "^1.18.2"
+  },
+  "jest-junit": {
+    "outputDirectory": "./test_results"
+  }
+}

@@ -3,10 +3,15 @@
 # browser-storage-parser
 Provides a helper to save to and retrieve objects and strings from the browser's sessionStorage and localStorage.
 
-## Motivation
-When a application makes extensive use of browser storage, several calls are made to storage `getItem` and `setItem`. This is fine, until there is a need to store more than a simple string. For example, if a JSON object needs to be stored, it must be stringified upon `setItem` and then parsed upon `getItem`. This library takes care of that for you.
+## Install
+```
+npm install browser-storage-parser
+```
 
-There are also situation where localStorage may not be available, this library allows for using sessionStorage as a fallback in these scenarios.
+## Motivation
+When an application makes extensive use of browser storage, several calls are made to storage `getItem` and `setItem`. This is fine, until there is a need to store more than a simple string. For example, if a JSON object needs to be stored, it must be stringified upon `setItem` and then parsed upon `getItem`. This library takes care of that for you.
+
+There are also situations where localStorage may not be available. This library allows for using sessionStorage as a fallback in these scenarios.
 
 ## Usage
 
@@ -31,7 +36,7 @@ Example:
 getFromSessionStorage('objectName`)
 ```
 **Values returned:**
-`"string stored"`
+```"string stored"```
 -- or --
 ```
 {

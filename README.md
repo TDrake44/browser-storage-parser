@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.com/TDrake44/browser-storage-parser.svg?branch=v0.0.1)](https://travis-ci.com/TDrake44/browser-storage-parser) [![Coverage Status](https://coveralls.io/repos/github/TDrake44/browser-storage-parser/badge.svg?branch=v0.0.1)](https://coveralls.io/github/TDrake44/browser-storage-parser?branch=master)
+[![Build Status](https://api.travis-ci.com/TDrake44/browser-storage-parser.svg?branch=master)](https://travis-ci.com/TDrake44/browser-storage-parser) [![Coverage Status](https://coveralls.io/repos/github/TDrake44/browser-storage-parser/badge.svg?branch=v0.0.1)](https://coveralls.io/github/TDrake44/browser-storage-parser?branch=master)
 
 # browser-storage-parser
 Provides a helper to save to and retrieve objects and strings from the browser's sessionStorage and localStorage.
